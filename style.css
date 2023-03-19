@@ -3,6 +3,7 @@ body {
     border: 0px;
     height: auto;
     align-items: center;
+    widht:1440px;
 }
 
 .attribution {
@@ -25,7 +26,7 @@ body {
 }
 
 .card {
-    width: 375px;
+    width: 300px;
     margin: 100px auto auto auto;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
