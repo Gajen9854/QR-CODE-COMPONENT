@@ -28,7 +28,8 @@ body {
 }
 
 .card {
-    width: 300px;
+    max-width: 300px;
+    min-width: auto;
     margin: 150px auto auto auto;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
