@@ -2,7 +2,9 @@ body {
     background-color: hsl(212, 45%, 89%);
     border: 0px;
     height: auto;
+    widht: auto;
     align-items: center;
+    margin: auto;
      }
 .attribution {
     font-size: 11px;
