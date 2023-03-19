@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-    width: auto;
+    width: 375px;
     margin: 80px auto auto auto;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
