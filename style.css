@@ -2,6 +2,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     border: 0px;
     height: auto;
+    align-items: center;
 }
 
 .attribution {
@@ -25,14 +26,14 @@ body {
 
 .card {
     width: auto;
-    margin: 100px auto auto auto;
+    margin: 80px auto auto auto;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     border-color: hsl(212, 45%, 89%);
     border-radius: 30px 30px 30px 30px;
     padding: 10px;
-    left: 30%;
-    right: 30%;
+    left: 40%;
+    right: 35%;
     box-shadow: 50px 50px 50px hsl(220, 15%, 55%);
     height: auto;
     text-align: center;
@@ -40,14 +41,14 @@ body {
 
 h2 {
     font-size: 15px;
-    width: auto;
+    width: 80%;
     margin: auto;
     position: relative;
 }
 
 p {
     font-size: 13px;
-    width: auto;
+    width: 80%;
     margin: auto;
     color: hsl(220, 15%, 55%);
     position: relative;
@@ -55,7 +56,7 @@ p {
 
 .img {
     margin: 0%;
-    width: 100%;
+    width: 90%;
     border-radius: 20px 20px 20px 20px;
     position: relative;
     height: auto;
