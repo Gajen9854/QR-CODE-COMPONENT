@@ -19,8 +19,8 @@ html {
 
 .Qr {
     background-color: white;
-    width: 280px;
-    height: 430px;
+    width: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +34,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 300px;
     border-radius: 1rem;
-    margin-top: -1rem;
+    margin-top: 1rem;
 }
 
 h2 {
