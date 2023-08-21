@@ -1,67 +1,55 @@
-body {
-    background-color: hsl(212, 45%, 89%);
-    border: 0px;
-    height: auto;
-    widht: auto;
-    align-items: center;
-    margin: 0px;
-     }
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    margin: auto;
-    position: relative;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
-    margin: auto;
-    text-align: center;
-}
-
-.Qr {
-    font-size: 15px;
-    text-align: center;
-    color: hsl(218, 44%, 22%);
-    width: auto;
-    position: relative;
+html {
+    font-size: 60%;
 }
 
 .card {
-    max-width: 300px;
-    min-width: auto;
-    margin: 150px auto auto auto;
-    background-color: hsl(0, 0%, 100%);
-    position: absolute;
-    border-color: hsl(212, 45%, 89%);
-    border-radius: 30px 30px 30px 30px;
-    padding: 10px;
-    left: 50px;
-    right: 50px;
-    box-shadow: 50px 50px 50px hsl(220, 15%, 55%);
-    height: auto;
-    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 223, 240);
 }
 
-h2 {
-    font-size: 15px;
-    width: 80%;
-    margin: 2px auto;
-    position: relative;
-}
-
-p {
-    font-size: 13px;
-    width: 80%;
-    margin: auto;
-    color: hsl(220, 15%, 55%);
-    position: relative;
+.Qr {
+    background-color: white;
+    width: 280px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    border-radius: 2rem;
 }
 
 .img {
-    margin: 0%;
-    width: 90%;
-    border-radius: 20px 20px 20px 20px;
-    position: relative;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 1rem;
+    margin-top: -1rem;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+    width: 70%;
+    text-align: center;
+    color: rgb(92, 89, 89);
+    font-size: 1.4rem;
 }
